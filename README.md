@@ -43,7 +43,7 @@ This project implements a DDPG reinforcement learning controller for autonomous 
 | OU Noise θ | 0.15 | Mean reversion parameter in OU process |
 | OU Noise σ | 0.2 | Volatility parameter in OU process |
 | Max Action Value | 20.0 | Maximum allowed control output |
-| Episodes | 200 | Number of training episodes |
+| Episodes | 500 | Number of training episodes |
 | Evaluation Interval | 10 | Episodes between evaluations |
 | Time Step (dt) | 0.01 | Simulation time step in seconds |
 | Episode Length | 25.0 | Maximum episode duration in seconds |
@@ -116,12 +116,12 @@ pip install torch numpy matplotlib control
 To train a new DDPG controller:
 
 ```bash
-python train.py --episodes 200 --batch-size 64 --hidden-dim 64 --actor-lr 1e-4 --critic-lr 1e-3
+python train.py --episodes 500 --batch-size 64 --hidden-dim 64 --actor-lr 1e-4 --critic-lr 1e-3
 ```
 
 ### Training Parameters
 
-- `--episodes`: Number of training episodes (default: 200)
+- `--episodes`: Number of training episodes (default: 500)
 - `--batch-size`: Size of batch for training (default: 64)
 - `--hidden-dim`: Dimension of hidden layers in networks (default: 64)
 - `--actor-lr`: Learning rate for the actor network (default: 1e-4)
