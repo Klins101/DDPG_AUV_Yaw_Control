@@ -92,7 +92,7 @@ Critic(
 ```bash
 # Clone the repository
 git clone https://github.com/Klins101/DDPG_AUV_Yaw_Control.git
-cd auv-ddpg-controller
+cd DDPG_AUV_Yaw_Control
 
 # Create and activate a virtual environment (optional but recommended)
 python -m venv venv
