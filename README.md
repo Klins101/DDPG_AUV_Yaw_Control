@@ -91,7 +91,7 @@ Critic(
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/auv-ddpg-controller.git
+git clone https://github.com/Klins101/DDPG_AUV_Yaw_Control.git
 cd auv-ddpg-controller
 
 # Create and activate a virtual environment (optional but recommended)
