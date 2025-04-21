@@ -1,0 +1,7 @@
+Performance Metrics:
+Steady-state error (e_ss): 0.000000
+Integral of Squared Error (ISE): 0.834054
+Integral of Time multiplied by Absolute Error (ITAE): 1.912588
+Integral of Absolute Control Effort (IACE): 1.756223
+Integral of Absolute Control Effort Rate (IACER): 42.672531
+Maximum control value: 19.999828
