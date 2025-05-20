@@ -290,3 +290,7 @@ The model files include:
 - Plot training rewards to identify convergence issues
 - Save intermediate models during training to track progress
 - Use smaller time steps if numerical instability occurs
+
+### Contact
+Dr. Pouria Sarhadi - p.sarhadi@herts.ac.uk
+Klinsmann Agyei - k.agyei@herts.ac.uk
