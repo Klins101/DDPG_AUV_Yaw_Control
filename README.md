@@ -292,5 +292,5 @@ The model files include:
 - Use smaller time steps if numerical instability occurs
 
 ### Contact
-Dr. Pouria Sarhadi - p.sarhadi@herts.ac.uk
+Dr. Pouria Sarhadi - p.sarhadi@herts.ac.uk <br>
 Klinsmann Agyei - k.agyei@herts.ac.uk
